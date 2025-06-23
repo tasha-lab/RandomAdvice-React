@@ -46,10 +46,13 @@ button {
   background-color: var(--lemon-chiffon);
 }
 .result {
-  margin-top: 3rem;
+  border: 2px solid red;
+  margin: 3rem;
   font-family: var(--primary-font-family);
   font-weight: 300;
   font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
 }
 @media screen and (max-width: 660px) {
   .CTA h1 {
