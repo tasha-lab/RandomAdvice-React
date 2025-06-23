@@ -24,6 +24,9 @@ const App = () => {
       setLoading(false);
     }
   };
+  useEffect(() => {
+    handleGetAdvice();
+  }, []);
 
   return (
     <div className="content-body">
