@@ -46,7 +46,6 @@ button {
   background-color: var(--lemon-chiffon);
 }
 .result {
-  border: 2px solid red;
   margin: 3rem;
   font-family: var(--primary-font-family);
   font-weight: 300;
